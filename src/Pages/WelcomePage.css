@@ -1,0 +1,64 @@
+/* Container for the entire page */
+.container {
+    height: 100vh;
+    background-color:#f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color:  #f7f8f9;
+    min-height: 100vh;
+    /* border: 1px solid #ddd;
+    border-radius: 4px; */
+  }
+  
+  /* Content container inside the page */
+  .content {
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Title of the content */
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle below the title */
+  .subtitle {
+    font-size: 16px;
+    color: #6e6e73;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  /* Button for creating new account or action */
+  .create-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4a3dda;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Button for login action */
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #d0b3ff;
+    color: #3c096c;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }

@@ -1,0 +1,192 @@
+/* Container for the entire page */
+.container {
+  height: 100vh;
+  background-color:#f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color:  #f7f8f9;
+  min-height: 100vh;
+  /* border: 1px solid #ddd;
+  border-radius: 4px; */
+}
+
+/* Content container inside the page */
+.content {
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Title of the content */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d1d1f;
+  margin-bottom: 10px;
+}
+
+/* Subtitle below the title */
+.subtitle {
+  font-size: 16px;
+  color: #6e6e73;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Button for creating new account or action */
+.create-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4a3dda;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Button for login action */
+.login-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #d0b3ff;
+  color: #3c096c;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Form container with padding and background */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #f7f8f9;
+  min-height: 100vh;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px; 
+  /* Ensures padding doesn't overflow */
+}
+
+
+/* Title for the form section */
+.form-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Flex container for form items */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* Wrapper for form input fields */
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling for form inputs */
+.label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #8b00ff; /* Purple color for labels */
+  position: absolute;
+  top: -8px; /* Adjust to position above the input border */
+  left: 10px; /* Adjust horizontal positioning */
+  background-color: #f7f8f9; /* Match form background to make it look like it's on the border */
+  padding: 0 5px; /* Add some padding around the label text */
+  font-size: 12px; /* Make the label text smaller */
+  font-weight: 600;
+  z-index: 1; /* Ensure label is above the input border */
+}
+
+/* Required field indicator */
+.required {
+  color: red;
+  margin-left: 3px;
+}
+
+/* Input field styling */
+.input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Group for radio buttons */
+.radio-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 8px;
+}
+
+/* Radio button label styling */
+.radio-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Custom color for radio button */
+input[type="radio"] {
+  accent-color: #8b00ff;
+   /* Purple color for radio buttons */
+  margin-right: 6px;
+}
+
+/* Submit button styling */
+.submit-button {
+  margin-top: 30px;
+  background-color: #4a3dda;
+  color: #fff;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Submit button hover effect */
+
+.input-label {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box; /* Prevent overflow from padding */
+}
+
+
+.Alabel {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #8b00ff; /* Purple color for labels */
+  
+}
